@@ -43,7 +43,7 @@ button{
 
 }
 
-work-list{
+work-list, h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -52,7 +52,7 @@ work-list{
     letter-spacing: 0.06em;
     color: #212121;
 }
-work-list,projects{
+work-list, p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -67,6 +67,15 @@ page-footer{
 
 }
 
+
 address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
 
 }
