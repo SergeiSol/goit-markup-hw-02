@@ -45,7 +45,6 @@ button{
 
 work-list, h1{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -54,7 +53,6 @@ work-list, h1{
 }
 work-list, p{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -65,7 +63,6 @@ work-list, p{
 
 address{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
