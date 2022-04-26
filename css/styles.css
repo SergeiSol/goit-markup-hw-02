@@ -33,6 +33,10 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
+.link:hover {
+  background: #2196F3;
+}
+
 button{ 
     font-family: inherit;
     font-weight: 500;
