@@ -1,119 +1,144 @@
-body{
-    font-family: roboto,sans-serif;
+:root{
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --primary-white-color: #ffffff;
+    --accent-color: #2196f3;
 }
+
+
+body{
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    color: var(--primary-text-color)
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    background-color: var(--primary-white-color)
+}
+/*utils*/
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--secondary-text-color)
+}
+/*logo*/
 .logo{
-    font-family: 'Raleway',cursive;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3
+    color: var(--secondary-text-color)
 }
-.nav-link{
-    font-family: 'Roboto';
+.accent{
+    color: #2196F3;
+}
+
+.nav-link,
+.contacts-link{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
-}
-.nav-link:hover {
-  background: #2196F3;
+    color: var(--secondary-text-color)
 }
 .contacts-link{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--primary-text-color)
 }
-.contacts-link:hover{
-    background: #2196F3;
+
+/*hero*/
+
+.hero{
+    background-color: #2F303A;
 }
-.hero-link{
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-white-color)
 }
-.button-type{
-    font-family: 'Roboto';
+.button{
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border: none;
 }
-.button-type:hover{
-    background: #2196F3;
-}
-.work-punkt{
-    font-family: 'Roboto';
-    font-weight: 700;
+/*work*/
+
+.work-subtitle{
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--secondary-text-color)
 }
-.work-paragraph{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.tytle-work{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-.tytle-work{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-.team-punkt{
-    font-family: 'Roboto';
+/*team*/
+.team-top-title{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--secondary-text-color)
 }
-.team-paragraph{
-    font-family: 'Roboto';
-    font-weight: 400;
+.team-desc{
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color);
 }
+/*footer*/
+.footer{
+    background-color: #2F303A;;
+}
+.footer .logo,
 .address-link{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
-.address-link:hover{
-    background: #2196F3;
+.footer .contacts-link{
+    color: rgba(255, 255, 255, 0.6)
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.current{
+    color: var(--accent-color);
+}
+/*portfolio*/
+.portfolio-button:hover,
+.portfolio-button:focus,
+.corrent{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.portfolio-button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--secondary-text-color);
+    border: none;
+}
+.work-subtitle{
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color)
+}
+.work-desc{
+font-size: 16px;
+line-height: 1.87;
+color: var(--primary-text-color)
 }
