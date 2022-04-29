@@ -9,7 +9,7 @@
 body{
     font-family: Roboto,sans-serif;
     font-size: 14px;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
     letter-spacing: 0.03em;
     line-height: 1.71;
     background-color: var(--primary-white-color)
@@ -83,16 +83,17 @@ color: var(--primary-white-color)
 /*work*/
 
 .work-subtitle{
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 18px;
+    line-height: 2.0;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
     color: var(--secondary-text-color)
 }
 /*team*/
 .team-top-title{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.88;
     color: var(--secondary-text-color)
 }
 .team-desc{
