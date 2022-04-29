@@ -83,11 +83,16 @@ color: var(--primary-white-color)
 /*work*/
 
 .work-subtitle{
-    font-size: 18px;
-    line-height: 2.0;
+    font-size: 14px;
+    line-height: 1.14;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
     color: var(--secondary-text-color)
+}
+.work-sub{
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color)
 }
 /*team*/
 .team-top-title{
